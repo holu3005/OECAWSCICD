@@ -66,7 +66,7 @@ Resources:
     Type: AWS::CodeBuild::Project
     Properties:
       Name: !Ref AWS::StackName
-      Description: my first codebuild project
+      Description: This  is  a successful project
       ServiceRole: !GetAtt CodeBuildServiceRole.Arn
       Source:
         Type: GITHUB
